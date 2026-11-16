@@ -1,0 +1,41 @@
+{
+  "name": "tldmint-mcp",
+  "version": "1.0.0",
+  "description": "Free zero-auth MCP server for live domain name generation, 100-domain bulk DNS availability checks (1.1.1.1 DoH), SPF/DMARC/RDAP diagnostics, and verified promo codes — powered by TLDMint.com.",
+  "type": "module",
+  "bin": {
+    "tldmint-mcp": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "glama.json",
+    "smithery.yaml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/cli.mjs",
+    "test": "node ./bin/cli.mjs --self-test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "domain-generator",
+    "domain-availability",
+    "dns-checker",
+    "whois",
+    "rdap",
+    "claude",
+    "cursor",
+    "tldmint"
+  ],
+  "homepage": "https://tldmint.com/ai-api/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cputop/tldmint-mcp.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
