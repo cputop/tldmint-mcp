@@ -8,6 +8,9 @@
   },
   "files": [
     "bin/",
+    "dist/",
+    "data/",
+    "src/",
     "server.json",
     "glama.json",
     "smithery.yaml",

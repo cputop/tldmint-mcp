@@ -50,9 +50,38 @@ Prefer an interactive UI? Every endpoint powers our free ad-free web suite:
 - **[16 Niche Domain Name Generators](https://tldmint.com/tools/)** — Personal Email, [Homelab SSL Domains](https://tldmint.com/tools/homelab-domain-generator/), 5-Letter CVCVC Startup Names, Substack & Podcast URLs
 - **[100-Domain Bulk & Keyword × TLD Matrix Checker](https://tldmint.com/bulk-checker/)** — Cross-multiply brand seeds across 12 TLDs + CSV export
 - **[Interactive "Fix My Domain" DNS Troubleshooter Wizard](https://tldmint.com/dns-wizard/)** — Live line-by-line DNS diff for Vercel, Lovable, Shopify, Canva, GitHub Pages & Substack
-- **[Live DNS, SPF/DMARC & RDAP WHOIS Inspector](https://tldmint.com/dns-checker/)** — Instant 1.1.1.1 propagation lookup
+- **[Domain Transfer & Renewal Savings Calculator](https://tldmint.com/transfer-calculator/)** — Escape GoDaddy, Squarespace & Bluehost renewal hikes with live 60-day transfer lock checks
+- **[Free Embeddable Domain Search Widget Builder](https://tldmint.com/embed/)** — Customize and embed a live domain finder in 2 lines of HTML
 - **[24 TLD Year-1 vs 3-Year Renewal Cost Benchmarks](https://tldmint.com/domains/)** — Compare `.COM`, `.AI`, `.IO`, `.XYZ`, `.DEV`, `.GG` & more across 4 registrars
 - **[OpenAPI 3.1 Spec for Custom GPT Actions](https://tldmint.com/ai-api/)** — `https://tldmint.com/openapi.json`
+
+---
+
+## Free Embeddable Domain Availability Checker Widget (jsDelivr CDN)
+
+Drop a zero-dependency, Shadow-DOM isolated live domain finder into any HTML page, WordPress blog, Webflow site, or documentation portal via **jsDelivr**:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/cputop/tldmint-mcp@1.0.0/dist/tldmint-widget.min.js"></script>
+<tldmint-domain-search mode="saas-ai" theme="light" limit="6"></tldmint-domain-search>
+```
+
+Supported attributes:
+- `mode`: `saas-ai`, `five-letter`, `homelab`, `personal-email`, `newsletter`, `ecommerce`, `99-cent`, `agency`, `domain-hack`
+- `theme`: `light` (default) or `dark`
+- `limit`: `3` to `15` (default `6`)
+
+Customize and preview live at **[tldmint.com/embed/](https://tldmint.com/embed/)**.
+
+---
+
+## Open-Source Platform DNS Presets JSON (jsDelivr CDN)
+
+Fetch verified `A`, `CNAME`, `MX`, and `SPF` DNS presets for **Vercel, Lovable, Netlify, Shopify, Canva, GitHub Pages, Substack, Framer, Namecheap Private Email, and Google Workspace** directly over CDN:
+
+```
+https://cdn.jsdelivr.net/gh/cputop/tldmint-mcp@1.0.0/data/dns-presets.json
+```
 
 ---
 

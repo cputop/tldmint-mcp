@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-20",
+  "source": "https://tldmint.com/dns-wizard/",
+  "apiEndpoint": "https://tldmint.com/api/dns-check",
+  "platforms": {
+    "vercel": {
+      "name": "Vercel",
+      "records": [
+        { "type": "A", "host": "@", "value": "76.76.21.21" },
+        { "type": "CNAME", "host": "www", "value": "cname.vercel-dns.com" }
+      ],
+      "guide": "https://tldmint.com/guides/connect-namecheap-domain-to-vercel-lovable/"
+    },
+    "lovable": {
+      "name": "Lovable",
+      "records": [
+        { "type": "A", "host": "@", "value": "185.158.133.1" },
+        { "type": "CNAME", "host": "www", "value": "cname.lovable.app" }
+      ],
+      "guide": "https://tldmint.com/guides/connect-namecheap-domain-to-vercel-lovable/"
+    },
+    "netlify": {
+      "name": "Netlify",
+      "records": [
+        { "type": "A", "host": "@", "value": "75.2.60.5" },
+        { "type": "CNAME", "host": "www", "value": "<your-site>.netlify.app" }
+      ],
+      "guide": "https://tldmint.com/guides/connect-namecheap-domain-to-vercel-lovable/"
+    },
+    "shopify": {
+      "name": "Shopify",
+      "records": [
+        { "type": "A", "host": "@", "value": "23.227.38.65" },
+        { "type": "CNAME", "host": "www", "value": "shops.myshopify.com" }
+      ],
+      "guide": "https://tldmint.com/guides/connect-namecheap-domain-to-canva-shopify/"
+    },
+    "canva": {
+      "name": "Canva Websites",
+      "records": [
+        { "type": "A", "host": "@", "value": "103.169.142.0" },
+        { "type": "A", "host": "www", "value": "103.169.142.0" }
+      ],
+      "guide": "https://tldmint.com/guides/connect-namecheap-domain-to-canva-shopify/"
+    },
+    "github-pages": {
+      "name": "GitHub Pages",
+      "records": [
+        { "type": "A", "host": "@", "value": "185.199.108.153" },
+        { "type": "A", "host": "@", "value": "185.199.109.153" },
+        { "type": "A", "host": "@", "value": "185.199.110.153" },
+        { "type": "A", "host": "@", "value": "185.199.111.153" },
+        { "type": "CNAME", "host": "www", "value": "<username>.github.io" }
+      ],
+      "guide": "https://tldmint.com/guides/connect-custom-domain-to-github-pages/"
+    },
+    "substack": {
+      "name": "Substack",
+      "records": [
+        { "type": "CNAME", "host": "www", "value": "target.substack-custom-domains.com" }
+      ],
+      "guide": "https://tldmint.com/guides/custom-domain-substack-beehiiv-dns-setup/"
+    },
+    "framer": {
+      "name": "Framer",
+      "records": [
+        { "type": "A", "host": "@", "value": "52.223.52.2" },
+        { "type": "A", "host": "@", "value": "35.71.142.77" },
+        { "type": "CNAME", "host": "www", "value": "sites.framer.app" }
+      ],
+      "guide": "https://tldmint.com/guides/connect-namecheap-domain-to-framer-webflow/"
+    },
+    "namecheap-private-email": {
+      "name": "Namecheap Private Email",
+      "records": [
+        { "type": "MX", "host": "@", "priority": 10, "value": "mx1.privateemail.com" },
+        { "type": "MX", "host": "@", "priority": 10, "value": "mx2.privateemail.com" },
+        { "type": "TXT", "host": "@", "value": "v=spf1 include:spf.privateemail.com ~all" }
+      ],
+      "guide": "https://tldmint.com/guides/spf-dkim-dmarc-namecheap-private-email-setup/"
+    },
+    "google-workspace": {
+      "name": "Google Workspace",
+      "records": [
+        { "type": "MX", "host": "@", "priority": 1, "value": "smtp.google.com" },
+        { "type": "TXT", "host": "@", "value": "v=spf1 include:_spf.google.com ~all" }
+      ],
+      "guide": "https://tldmint.com/guides/cheap-business-email-without-google-workspace/"
+    }
+  }
+}
