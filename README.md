@@ -1,5 +1,7 @@
 # TLDMint MCP Server (`tldmint-mcp`)
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/cputop-tldmint-mcp-jjurky?v=9bb1de4dddcfb5132f094b66f4324fd8)](https://m8ven.ai/mcp/cputop-tldmint-mcp-jjurky?s=readme)
+
 **Stop LLMs from suggesting registered domains.**  
 `tldmint-mcp` is a free, **zero-authentication** [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server powered by **[TLDMint.com](https://tldmint.com)** that lets Claude Desktop, Cursor, Windsurf, Cline, and autonomous AI agents generate brandable domain ideas, verify **live DNS availability** via Cloudflare `1.1.1.1` DoH, inspect **SPF/DMARC/RDAP WHOIS**, and surface verified first-year registration promos.
 
